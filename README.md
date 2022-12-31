@@ -4,17 +4,12 @@ An application that finds current security vulnerabilities and lists them with a
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required packages.
+Use the "python main.py" Bugbazaar will install all packages automatically
 
 ```bash
-pip install webbrowser
-pip install requests
-pip install pyqt5
+python main.py
 ```
-or
-```bash
-pip install -r requirements.txt
-```
+
 ## Usage
 ```bash
 python main.py
