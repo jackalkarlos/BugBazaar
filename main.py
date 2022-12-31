@@ -19,8 +19,8 @@ try:
             quit()
         print ('Requests has been installed, restart me:3')
         quit()
-except ImportError:  # throws error in python2
-    print('%s BugBazaar isn\'t compatible with python2.\n Use python > 3.4 to run BugBazaar.' % bad)
+except ImportError:
+    print('BugBazaar isn\'t compatible with python2. Use python > 3.4 to run BugBazaar.')
     quit()
 
 
