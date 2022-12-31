@@ -1,3 +1,2 @@
-webbrowser
 requests
 pyqt5

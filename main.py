@@ -1,9 +1,28 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
-import requests
-import urllib
-import json
-import webbrowser
-import re
+#from PyQt5 import QtCore, QtGui, QtWidgets
+#import requests
+#import webbrowser
+try:
+    import urllib
+    import json
+    import re
+    import webbrowser
+    try:
+        import requests
+        #import webbrowser
+        from PyQt5 import QtCore, QtGui, QtWidgets
+    except ImportError:
+        import os
+        print ('Requirements isn\'t installed, installing now.')
+        ret_code = os.system('pip3 install -r requirements.txt')
+        if(ret_code != 0):
+            print('Requests installation failed.')
+            quit()
+        print ('%s Requests has been installed, restart me:3')
+        quit()
+except ImportError:  # throws error in python2
+    print('%s BugBazaar isn\'t compatible with python2.\n Use python > 3.4 to run BugBazaar.' % bad)
+    quit()
+
 
 class Ui_Dialog(object):
 
