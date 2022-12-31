@@ -17,7 +17,7 @@ try:
         if(ret_code != 0):
             print('Requests installation failed.')
             quit()
-        print ('%s Requests has been installed, restart me:3')
+        print ('Requests has been installed, restart me:3')
         quit()
 except ImportError:  # throws error in python2
     print('%s BugBazaar isn\'t compatible with python2.\n Use python > 3.4 to run BugBazaar.' % bad)
