@@ -618,6 +618,9 @@ class Ui_Dialog(object):
 "ScrollBarAlwaysOff")
         self.CVESpread_SearchBar.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
         self.CVESpread_SearchBar.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.CVESpread_ShodanIOPicture = QtWidgets.QTextBrowser(self.tab_2)
+        self.CVESpread_ShodanIOPicture.setGeometry(QtCore.QRect(50, 140, 800, 420))
+        self.CVESpread_ShodanIOPicture.setStyleSheet("background-color: white; border-style: solid; border-width:1px; border-radius:10px; ScrollBarAlwaysOff")
        #Arama butonu ayarları
         self.CVESpread_SearchButton = QtWidgets.QPushButton(self.tab_2)
         self.CVESpread_SearchButton.setGeometry(QtCore.QRect(680, 15, 141, 41))
@@ -626,9 +629,7 @@ class Ui_Dialog(object):
         self.CVESpread_SearchButton.setFont(font)
         self.CVESpread_SearchButton.clicked.connect(self.cvespreading)
         #Resmin Olduğu Alan
-        self.CVESpread_ShodanIOPicture = QtWidgets.QTextBrowser(self.tab_2)
-        self.CVESpread_ShodanIOPicture.setGeometry(QtCore.QRect(50, 140, 800, 420))
-        self.CVESpread_ShodanIOPicture.setStyleSheet("background-color: white; border-style: solid; border-width:1px; border-radius:10px; ScrollBarAlwaysOff")        #Affected Devices yazısının arkaplanı
+    #Affected Devices yazısının arkaplanı
         self.frame_29 = QtWidgets.QFrame(self.tab_2)
         self.frame_29.setGeometry(QtCore.QRect(50, 80, 211, 41))
         self.frame_29.setStyleSheet(" background-color: white;\n"
@@ -639,7 +640,6 @@ class Ui_Dialog(object):
         #Affected Devices Yazısı
         self.textBrowser_11 = QtWidgets.QTextBrowser(self.frame_29)
         self.textBrowser_11.setGeometry(QtCore.QRect(30, 10, 151, 21))
-        self.textBrowser_11.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.textBrowser_11.setStyleSheet(" border-width:0px;\n"
 "")
         self.textBrowser_11.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
