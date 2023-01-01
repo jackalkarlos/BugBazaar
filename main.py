@@ -184,7 +184,7 @@ class Ui_Dialog(object):
                 self.CVESpread_AffectedThings.insertPlainText("Data Not Found")
 #Ben kaldım kardeş, ben kaldım... -Görkem Dolcek
 #Kim bu yerden bitme karı? Ne anamız kaldı, ne avradımız -Azat Dolunay
-#Yalarım var, ama düşmedim ensesinden -Mehmet Demir
+#Yaralarım var, ama düşmedim ensesinden -Mehmet Demir
 #Kod espri gibidir, açıklamak zorundaysan kötüdür -Talha Çaylı
 
 
