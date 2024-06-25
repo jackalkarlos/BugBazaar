@@ -22,6 +22,4 @@ This program have a basic GUI interface.
 
 https://github.com/gorkemdolcek<br>
 https://github.com/jackalkarlos<br>
-https://github.com/talhacyl<br>
-https://github.com/Butex-a11<br>
-https://github.com/dilarasenturk<br>
+
